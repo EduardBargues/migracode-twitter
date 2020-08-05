@@ -1,0 +1,54 @@
+----- TODAY -----
+
+- simulate a "final project" situation
+- Expose idea : Simplified version of Twitter
+    · brainstorm : what is this app suppose to do?
+    · Define an MVP (List main 5 features)
+    · Brainstorm about database structure
+    · Posible features:
+        * AS A user
+        I WANT to tweet
+        SO I can share my thoughts
+        
+        * As a user
+        I want to see my tweets in my profile
+        So I can edit, delete them
+        
+        * As a user
+        I want to Delete a tweet
+        So I can forget about the stupid things I posted
+        
+        * As a user
+        I want to edit a tweet
+        So I can fix typos
+        
+        * As a user
+        I want to be able to like a tweet
+        so that Twitter can know what I like. 
+        
+        * Get tweets user might like based on hashtags
+        * Follow other users
+
+
+----- FOR SATURDAY -----
+
+- Add authentication to the previous app.
+- Think about which endpoints need authentication. All of them?
+- Authentication with JWT:
+    · https://dev.to/vitaliikulyk/how-to-initialize-multilayer-nodejs-restful-api-with-jwt-auth-and-postgresql-in-3-steps--c8c
+    · https://itnext.io/building-restful-api-with-node-js-express-js-and-postgresql-the-right-way-b2e718ad1c66
+    · https://www.codementor.io/@olawalealadeusi896/building-a-simple-api-with-nodejs-expressjs-postgresql-db-and-jwt-3-mke10c5c5
+    · https://grokonez.com/node-js/jwt/node-js-jwt-authentication-postgresql-express-restapis-json-web-token-bcryptjs-sequelize
+    · https://medium.com/@solomonrock13/nodejs-authentication-using-jwt-and-refresh-token-and-sequelize-and-postgres-from-scratch-2031bd9a815e
+    · https://www.djamware.com/post/5bf94d9a80aca747f4b9ce9f/secure-nodejs-expressjs-and-postgresql-api-using-passportjs#routers-rest-api
+    · https://medium.com/@timtamimi/getting-started-with-authentication-in-node-js-with-passport-and-postgresql-2219664b568c
+    · https://itnext.io/building-restful-api-with-node-js-express-js-and-postgresql-the-right-way-b2e718ad1c66
+
+- Error handling in express
+    · https://dev.to/nedsoft/central-error-handling-in-express-3aej
+
+
+----- THINGS TO DISCUSS -----
+
+- Heroku. Are they suppose to use it ?
+- 
