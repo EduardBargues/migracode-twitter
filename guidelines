@@ -24,10 +24,18 @@
         
         * As a user
         I want to be able to like a tweet
-        so that Twitter can know what I like. 
+        so that Twitter can know what I like.
+            - POST end point to create a like
+            - GET end point to see tweeters a user likes/dislikes
+
+        * As a user
+        I want to be able to follow other users
+        so I can get info from them (interesting tweets, notifications, ...)
+
         
+
         * Get tweets user might like based on hashtags
-        * Follow other users
+        
 
 
 ----- FOR SATURDAY -----
