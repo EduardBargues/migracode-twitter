@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "03a4175e-99aa-44f4-b8e9-47a4f6051985",
+		"_postman_id": "f83d9c88-bd6a-47a1-afc8-a7efecfa202f",
 		"name": "twitter",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"content\": \"I'm upset with #dogs\",\r\n    \"authorId\": 1\r\n}",
+					"raw": "{\r\n    \"content\": \"I'm upset with #dogs because of #covid19\",\r\n    \"authorId\": 1\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -128,6 +128,116 @@
 						"tweets",
 						"4",
 						"like"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-liked-tweets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/users/1/liked-tweets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"users",
+						"1",
+						"liked-tweets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "follow",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"followerId\": 2,\r\n    \"followedId\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/follow",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"follow"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "followers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/followers/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"followers",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "followees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/followees/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"followees",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "recomendations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/users/2/recommendations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"users",
+						"2",
+						"recommendations"
 					]
 				}
 			},
